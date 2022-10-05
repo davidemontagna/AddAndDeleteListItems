@@ -1,0 +1,827 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02641F223D05520D1057582F /* Pods_AddAndDeleteListItems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */; };
+		8EB1E70528ED6E4600B36781 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E70428ED6E4600B36781 /* ListDetailViewController.swift */; };
+		8EB1E70828ED6E6400B36781 /* ListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E70728ED6E6400B36781 /* ListDetailViewModel.swift */; };
+		8EB1E71928ED964800B36781 /* ListAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E71828ED964800B36781 /* ListAnimation.swift */; };
+		8EB1E71B28EDBD8400B36781 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E71A28EDBD8400B36781 /* Transition.swift */; };
+		8EC7087F28EC835F001DB542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7087E28EC835F001DB542 /* AppDelegate.swift */; };
+		8EC7088128EC835F001DB542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7088028EC835F001DB542 /* SceneDelegate.swift */; };
+		8EC7088328EC835F001DB542 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7088228EC835F001DB542 /* ListViewController.swift */; };
+		8EC7088628EC835F001DB542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7088428EC835F001DB542 /* Main.storyboard */; };
+		8EC7088828EC8360001DB542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7088728EC8360001DB542 /* Assets.xcassets */; };
+		8EC7088B28EC8360001DB542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC7088928EC8360001DB542 /* LaunchScreen.storyboard */; };
+		8EC7089628EC8360001DB542 /* AddAndDeleteListItemsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7089528EC8360001DB542 /* AddAndDeleteListItemsTests.swift */; };
+		8EC708A028EC8361001DB542 /* AddAndDeleteListItemsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC7089F28EC8361001DB542 /* AddAndDeleteListItemsUITests.swift */; };
+		8EC708A228EC8361001DB542 /* AddAndDeleteListItemsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC708A128EC8361001DB542 /* AddAndDeleteListItemsUITestsLaunchTests.swift */; };
+		8EC708B128EC83F1001DB542 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC708B028EC83F1001DB542 /* ListViewModel.swift */; };
+		8EC708B428EC8416001DB542 /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC708B328EC8416001DB542 /* ListAdapter.swift */; };
+		8EC708B728EC8446001DB542 /* UITableView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC708B628EC8446001DB542 /* UITableView + Extensions.swift */; };
+		8EC708BD28EC869E001DB542 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC708BB28EC869E001DB542 /* ListCell.swift */; };
+		8EC708BE28EC869E001DB542 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EC708BC28EC869E001DB542 /* ListCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EC7089228EC8360001DB542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC7087328EC835F001DB542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC7087A28EC835F001DB542;
+			remoteInfo = AddAndDeleteListItems;
+		};
+		8EC7089C28EC8361001DB542 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EC7087328EC835F001DB542 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EC7087A28EC835F001DB542;
+			remoteInfo = AddAndDeleteListItems;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddAndDeleteListItems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB1E70428ED6E4600B36781 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
+		8EB1E70728ED6E6400B36781 /* ListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewModel.swift; sourceTree = "<group>"; };
+		8EB1E71828ED964800B36781 /* ListAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimation.swift; sourceTree = "<group>"; };
+		8EB1E71A28EDBD8400B36781 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
+		8EC7087B28EC835F001DB542 /* AddAndDeleteListItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddAndDeleteListItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC7087E28EC835F001DB542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8EC7088028EC835F001DB542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8EC7088228EC835F001DB542 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8EC7088528EC835F001DB542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EC7088728EC8360001DB542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC7088A28EC8360001DB542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EC7088C28EC8360001DB542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EC7089128EC8360001DB542 /* AddAndDeleteListItemsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddAndDeleteListItemsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC7089528EC8360001DB542 /* AddAndDeleteListItemsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndDeleteListItemsTests.swift; sourceTree = "<group>"; };
+		8EC7089B28EC8361001DB542 /* AddAndDeleteListItemsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddAndDeleteListItemsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EC7089F28EC8361001DB542 /* AddAndDeleteListItemsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndDeleteListItemsUITests.swift; sourceTree = "<group>"; };
+		8EC708A128EC8361001DB542 /* AddAndDeleteListItemsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAndDeleteListItemsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EC708B028EC83F1001DB542 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		8EC708B328EC8416001DB542 /* ListAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAdapter.swift; sourceTree = "<group>"; };
+		8EC708B628EC8446001DB542 /* UITableView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView + Extensions.swift"; sourceTree = "<group>"; };
+		8EC708BB28EC869E001DB542 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		8EC708BC28EC869E001DB542 /* ListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		D5A6FA9BD3B686C15E9A0E78 /* Pods-AddAndDeleteListItems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddAndDeleteListItems.release.xcconfig"; path = "Target Support Files/Pods-AddAndDeleteListItems/Pods-AddAndDeleteListItems.release.xcconfig"; sourceTree = "<group>"; };
+		D9DF33259FE65C4199A82D2A /* Pods-AddAndDeleteListItems.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AddAndDeleteListItems.debug.xcconfig"; path = "Target Support Files/Pods-AddAndDeleteListItems/Pods-AddAndDeleteListItems.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EC7087828EC835F001DB542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02641F223D05520D1057582F /* Pods_AddAndDeleteListItems.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7088E28EC8360001DB542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7089828EC8361001DB542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BCF96A431F6E084E98D6DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB1E70128ED6DEA00B36781 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708AE28EC8398001DB542 /* ViewController */,
+				8EC708AF28EC83DD001DB542 /* ViewModel */,
+				8EC708B228EC8405001DB542 /* Adapter */,
+				8EC708B928EC866C001DB542 /* View */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		8EB1E70228ED6DFD00B36781 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E70328ED6E0F00B36781 /* ViewController */,
+				8EB1E70628ED6E4A00B36781 /* ViewModel */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		8EB1E70328ED6E0F00B36781 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E70428ED6E4600B36781 /* ListDetailViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8EB1E70628ED6E4A00B36781 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E70728ED6E6400B36781 /* ListDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EB1E70928ED7EB200B36781 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E71A28EDBD8400B36781 /* Transition.swift */,
+			);
+			path = CustomTransition;
+			sourceTree = "<group>";
+		};
+		8EB1E71728ED963500B36781 /* ListAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E71828ED964800B36781 /* ListAnimation.swift */,
+			);
+			path = ListAnimation;
+			sourceTree = "<group>";
+		};
+		8EB1E71C28EDDC0200B36781 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E70228ED6DFD00B36781 /* Detail */,
+				8EB1E70128ED6DEA00B36781 /* List */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		8EB1E71D28EDEA8700B36781 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E71728ED963500B36781 /* ListAnimation */,
+				8EB1E70928ED7EB200B36781 /* CustomTransition */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8EB1E71E28EDEAB800B36781 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8EB1E71D28EDEA8700B36781 /* Components */,
+				8EB1E71C28EDDC0200B36781 /* Scenes */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		8EC7087228EC835F001DB542 = {
+			isa = PBXGroup;
+			children = (
+				8EC7087D28EC835F001DB542 /* AddAndDeleteListItems */,
+				8EC7089428EC8360001DB542 /* AddAndDeleteListItemsTests */,
+				8EC7089E28EC8361001DB542 /* AddAndDeleteListItemsUITests */,
+				8EC7087C28EC835F001DB542 /* Products */,
+				D614EFA905BCF7ED4A1B4876 /* Pods */,
+				5BCF96A431F6E084E98D6DBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC7087C28EC835F001DB542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EC7087B28EC835F001DB542 /* AddAndDeleteListItems.app */,
+				8EC7089128EC8360001DB542 /* AddAndDeleteListItemsTests.xctest */,
+				8EC7089B28EC8361001DB542 /* AddAndDeleteListItemsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EC7087D28EC835F001DB542 /* AddAndDeleteListItems */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708B528EC842F001DB542 /* Extensions */,
+				8EB1E71E28EDEAB800B36781 /* UI */,
+				8EC7087E28EC835F001DB542 /* AppDelegate.swift */,
+				8EC7088028EC835F001DB542 /* SceneDelegate.swift */,
+				8EC7088428EC835F001DB542 /* Main.storyboard */,
+				8EC7088728EC8360001DB542 /* Assets.xcassets */,
+				8EC7088928EC8360001DB542 /* LaunchScreen.storyboard */,
+				8EC7088C28EC8360001DB542 /* Info.plist */,
+			);
+			path = AddAndDeleteListItems;
+			sourceTree = "<group>";
+		};
+		8EC7089428EC8360001DB542 /* AddAndDeleteListItemsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC7089528EC8360001DB542 /* AddAndDeleteListItemsTests.swift */,
+			);
+			path = AddAndDeleteListItemsTests;
+			sourceTree = "<group>";
+		};
+		8EC7089E28EC8361001DB542 /* AddAndDeleteListItemsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EC7089F28EC8361001DB542 /* AddAndDeleteListItemsUITests.swift */,
+				8EC708A128EC8361001DB542 /* AddAndDeleteListItemsUITestsLaunchTests.swift */,
+			);
+			path = AddAndDeleteListItemsUITests;
+			sourceTree = "<group>";
+		};
+		8EC708AE28EC8398001DB542 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EC7088228EC835F001DB542 /* ListViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8EC708AF28EC83DD001DB542 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708B028EC83F1001DB542 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8EC708B228EC8405001DB542 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708B328EC8416001DB542 /* ListAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		8EC708B528EC842F001DB542 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708B628EC8446001DB542 /* UITableView + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8EC708B928EC866C001DB542 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708BA28EC8676001DB542 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8EC708BA28EC8676001DB542 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8EC708BB28EC869E001DB542 /* ListCell.swift */,
+				8EC708BC28EC869E001DB542 /* ListCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D614EFA905BCF7ED4A1B4876 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9DF33259FE65C4199A82D2A /* Pods-AddAndDeleteListItems.debug.xcconfig */,
+				D5A6FA9BD3B686C15E9A0E78 /* Pods-AddAndDeleteListItems.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EC7087A28EC835F001DB542 /* AddAndDeleteListItems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC708A528EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItems" */;
+			buildPhases = (
+				ED089542382144E8909CA0F1 /* [CP] Check Pods Manifest.lock */,
+				8EC7087728EC835F001DB542 /* Sources */,
+				8EC7087828EC835F001DB542 /* Frameworks */,
+				8EC7087928EC835F001DB542 /* Resources */,
+				2DB847DE197BD1CE95B27D2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddAndDeleteListItems;
+			productName = AddAndDeleteListItems;
+			productReference = 8EC7087B28EC835F001DB542 /* AddAndDeleteListItems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EC7089028EC8360001DB542 /* AddAndDeleteListItemsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC708A828EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItemsTests" */;
+			buildPhases = (
+				8EC7088D28EC8360001DB542 /* Sources */,
+				8EC7088E28EC8360001DB542 /* Frameworks */,
+				8EC7088F28EC8360001DB542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC7089328EC8360001DB542 /* PBXTargetDependency */,
+			);
+			name = AddAndDeleteListItemsTests;
+			productName = AddAndDeleteListItemsTests;
+			productReference = 8EC7089128EC8360001DB542 /* AddAndDeleteListItemsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EC7089A28EC8361001DB542 /* AddAndDeleteListItemsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EC708AB28EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItemsUITests" */;
+			buildPhases = (
+				8EC7089728EC8361001DB542 /* Sources */,
+				8EC7089828EC8361001DB542 /* Frameworks */,
+				8EC7089928EC8361001DB542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EC7089D28EC8361001DB542 /* PBXTargetDependency */,
+			);
+			name = AddAndDeleteListItemsUITests;
+			productName = AddAndDeleteListItemsUITests;
+			productReference = 8EC7089B28EC8361001DB542 /* AddAndDeleteListItemsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EC7087328EC835F001DB542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					8EC7087A28EC835F001DB542 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					8EC7089028EC8360001DB542 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8EC7087A28EC835F001DB542;
+					};
+					8EC7089A28EC8361001DB542 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 8EC7087A28EC835F001DB542;
+					};
+				};
+			};
+			buildConfigurationList = 8EC7087628EC835F001DB542 /* Build configuration list for PBXProject "AddAndDeleteListItems" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EC7087228EC835F001DB542;
+			productRefGroup = 8EC7087C28EC835F001DB542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EC7087A28EC835F001DB542 /* AddAndDeleteListItems */,
+				8EC7089028EC8360001DB542 /* AddAndDeleteListItemsTests */,
+				8EC7089A28EC8361001DB542 /* AddAndDeleteListItemsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EC7087928EC835F001DB542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC7088B28EC8360001DB542 /* LaunchScreen.storyboard in Resources */,
+				8EC708BE28EC869E001DB542 /* ListCell.xib in Resources */,
+				8EC7088828EC8360001DB542 /* Assets.xcassets in Resources */,
+				8EC7088628EC835F001DB542 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7088F28EC8360001DB542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7089928EC8361001DB542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DB847DE197BD1CE95B27D2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddAndDeleteListItems/Pods-AddAndDeleteListItems-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AddAndDeleteListItems/Pods-AddAndDeleteListItems-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AddAndDeleteListItems/Pods-AddAndDeleteListItems-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED089542382144E8909CA0F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AddAndDeleteListItems-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EC7087728EC835F001DB542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EB1E71928ED964800B36781 /* ListAnimation.swift in Sources */,
+				8EC708B428EC8416001DB542 /* ListAdapter.swift in Sources */,
+				8EC7088328EC835F001DB542 /* ListViewController.swift in Sources */,
+				8EC7087F28EC835F001DB542 /* AppDelegate.swift in Sources */,
+				8EC708BD28EC869E001DB542 /* ListCell.swift in Sources */,
+				8EB1E71B28EDBD8400B36781 /* Transition.swift in Sources */,
+				8EC708B128EC83F1001DB542 /* ListViewModel.swift in Sources */,
+				8EC7088128EC835F001DB542 /* SceneDelegate.swift in Sources */,
+				8EC708B728EC8446001DB542 /* UITableView + Extensions.swift in Sources */,
+				8EB1E70528ED6E4600B36781 /* ListDetailViewController.swift in Sources */,
+				8EB1E70828ED6E6400B36781 /* ListDetailViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7088D28EC8360001DB542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC7089628EC8360001DB542 /* AddAndDeleteListItemsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC7089728EC8361001DB542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EC708A228EC8361001DB542 /* AddAndDeleteListItemsUITestsLaunchTests.swift in Sources */,
+				8EC708A028EC8361001DB542 /* AddAndDeleteListItemsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EC7089328EC8360001DB542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC7087A28EC835F001DB542 /* AddAndDeleteListItems */;
+			targetProxy = 8EC7089228EC8360001DB542 /* PBXContainerItemProxy */;
+		};
+		8EC7089D28EC8361001DB542 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EC7087A28EC835F001DB542 /* AddAndDeleteListItems */;
+			targetProxy = 8EC7089C28EC8361001DB542 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EC7088428EC835F001DB542 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC7088528EC835F001DB542 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EC7088928EC8360001DB542 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EC7088A28EC8360001DB542 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EC708A328EC8361001DB542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EC708A428EC8361001DB542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EC708A628EC8361001DB542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DF33259FE65C4199A82D2A /* Pods-AddAndDeleteListItems.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddAndDeleteListItems/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EC708A728EC8361001DB542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A6FA9BD3B686C15E9A0E78 /* Pods-AddAndDeleteListItems.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AddAndDeleteListItems/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EC708A928EC8361001DB542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItemsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddAndDeleteListItems.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddAndDeleteListItems";
+			};
+			name = Debug;
+		};
+		8EC708AA28EC8361001DB542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItemsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddAndDeleteListItems.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddAndDeleteListItems";
+			};
+			name = Release;
+		};
+		8EC708AC28EC8361001DB542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItemsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddAndDeleteListItems;
+			};
+			name = Debug;
+		};
+		8EC708AD28EC8361001DB542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = List.AddAndDeleteListItemsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddAndDeleteListItems;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EC7087628EC835F001DB542 /* Build configuration list for PBXProject "AddAndDeleteListItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC708A328EC8361001DB542 /* Debug */,
+				8EC708A428EC8361001DB542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC708A528EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC708A628EC8361001DB542 /* Debug */,
+				8EC708A728EC8361001DB542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC708A828EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItemsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC708A928EC8361001DB542 /* Debug */,
+				8EC708AA28EC8361001DB542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EC708AB28EC8361001DB542 /* Build configuration list for PBXNativeTarget "AddAndDeleteListItemsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EC708AC28EC8361001DB542 /* Debug */,
+				8EC708AD28EC8361001DB542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EC7087328EC835F001DB542 /* Project object */;
+}
