@@ -260,7 +260,7 @@
 		425D2D69E942793127219B3551A98079 /* MDCNavigationBarTypographyThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = 215EFA26E9EC7B2A5339EA711613C107 /* MDCNavigationBarTypographyThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		426ECE3ED41CF0BD03B4B18A65CD9684 /* MDCTabBarUnderlineIndicatorTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = B56508F8C28837D0202F015BA790137C /* MDCTabBarUnderlineIndicatorTemplate.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4272787BE3A53139F649F509F79866FC /* MDCTextControlLabelAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = F53830BE1A43BB74E89B143071959E5D /* MDCTextControlLabelAnimation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		429F96D649B4321981F0DC90FD9CF1F9 /* MaterialComponents-MaterialIcons_ic_check_circle in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */; };
+		429F96D649B4321981F0DC90FD9CF1F9 /* MaterialIcons_ic_check_circle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */; };
 		42CFB7CFBF77ACD45193258D23F3224F /* MDCStatefulRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98364ECAD2B5680D926EB0503AEB69BA /* MDCStatefulRippleView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		42F9A442BDAEF1F98F406C1EA0A2ABE0 /* MDCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 13F974AE839C6BF9ECBF09336571AF0D /* MDCPageControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4342ECC15C466BFF7BC7820622240753 /* MDCItemBar.h in Headers */ = {isa = PBXBuildFile; fileRef = E885465B2BC3C3727D1BFA2C1B701964 /* MDCItemBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -286,7 +286,7 @@
 		4A4753384925E04F68E5325E3C0FE069 /* MaterialAppBar+ColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C8DD660105892A3BF69FAC95943F54F /* MaterialAppBar+ColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A8E2656033F3A2BC025D61989CE9A99 /* MDCBottomNavigationBar+MaterialTheming.h in Headers */ = {isa = PBXBuildFile; fileRef = C10A02D160E13990199698A36C221B92 /* MDCBottomNavigationBar+MaterialTheming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AC802CAF6975136F3A38FB8CDC4A703 /* MDCAppBarViewControllerAccessibilityPerformEscapeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E62BB107382E05F38B8D7EEB4EA68A74 /* MDCAppBarViewControllerAccessibilityPerformEscapeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialComponents-MaterialIcons_ic_check in Resources */ = {isa = PBXBuildFile; fileRef = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */; };
+		4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialIcons_ic_check.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */; };
 		4C34DF36C31185A57C1D1D69AC5274F5 /* MaterialBanner+Theming.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C2FC8F63B99994A9E19A5CA2C344E3E /* MaterialBanner+Theming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CAD6091E40BCC6B940980061004382F /* MDCTabBarView+MaterialTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB722DC11B6F332CA16B40104DCD19C /* MDCTabBarView+MaterialTheming.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4D47BD8B3B2255F46AD963CE9802C33C /* MDCContainedButtonColorThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C07165E4515B349F2D063B071F202 /* MDCContainedButtonColorThemer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -375,7 +375,7 @@
 		64317603918517CB58BC50355BBD14F8 /* MDFInternationalization.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = A40E4C4B0B3CF8B8330089A3C411ECEA /* MDFInternationalization.h */; };
 		6440A993F22ECE9DB214D3DF94F962C6 /* MDCTabBarUnderlineIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2551FE4C6C8DF68E42F27F5B7F8BD56A /* MDCTabBarUnderlineIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64B94B1692586065A93235C19A8BC6FC /* MDCFontTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = E95AB0D944ADEC8034698CDEB9750D54 /* MDCFontTraits.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6543102BA5BF54A780651C8168932795 /* MaterialComponents-MaterialIcons_ic_feedback in Resources */ = {isa = PBXBuildFile; fileRef = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */; };
+		6543102BA5BF54A780651C8168932795 /* MaterialIcons_ic_feedback.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */; };
 		656C002D0E25B7EC8C35E088C7F6977D /* MDCProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7402885BB2A721750CEA7BCB4EB6C306 /* MDCProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		65E79EE54E11BD2FF386B6427108D6EE /* MDMRepetition.m in Sources */ = {isa = PBXBuildFile; fileRef = 474ED2057C9D772B274A19A6D98067D5 /* MDMRepetition.m */; };
 		65F68BDB120E204AA4ADE0D589B53E77 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = EB54EC7AA88B2BCA573008FC6962C8B3 /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -479,7 +479,7 @@
 		83150CBCF98904A0B6871B84F5287C41 /* MDCUnderlinedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = B92E05815A03E599AF719CF28812D9C5 /* MDCUnderlinedTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		834912E52D85C3B9EC71E3007D92926B /* MDCTabBarItemAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3E4A5E8C96B31009BC1EABEA74E34B /* MDCTabBarItemAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8356C99226A884DFC441630B500A2794 /* MaterialContainerScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A1B167EFC4AB80C50B6DB4D8D1B0380 /* MaterialContainerScheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialComponents-MaterialIcons_ic_settings in Resources */ = {isa = PBXBuildFile; fileRef = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */; };
+		83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialIcons_ic_settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */; };
 		83DFEBC54C1A05CE08F816BB7C160E39 /* MDCOutlinedTextField+MaterialTheming.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B73D5ED63F8EB424F8C2BC0535E4FA /* MDCOutlinedTextField+MaterialTheming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		840A511B2FDB0E88C83BD6BE34743772 /* MDCFlexibleHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D536FB388D8ECEA1D36DA36F87E5C530 /* MDCFlexibleHeaderView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		843AE733933E9EE7F29192E63F8DB4EB /* MDCShapeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 109BD4EDC4A5CD856DA00DB1A53525CE /* MDCShapeCategory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -495,7 +495,7 @@
 		85B049F288AA320AA7DF4EB3FE8E74DC /* MaterialDialogsStrings.h in Headers */ = {isa = PBXBuildFile; fileRef = 51DE262E564E987FA4EBF81EC3830759 /* MaterialDialogsStrings.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8608A0E2B872442780FC5FCBFC520901 /* MaterialIcons+ic_radio_button_unchecked.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CA958F74A526A6F51EBB86E9EBF47C5 /* MaterialIcons+ic_radio_button_unchecked.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		860B1D3894CFE0D37E8C82F793B6BF5E /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E9E1DC9EDF5C8C0274160156EAF2F4 /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialComponents-MaterialIcons_ic_chevron_right in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */; };
+		860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialIcons_ic_chevron_right.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */; };
 		866CF6FA4A826AFD70769F67B447ED51 /* UIView+MaterialElevationResponding.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6B1F30738B4805E31E89E98F0D4B9F /* UIView+MaterialElevationResponding.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		867BEFC99FAD938D8F15DDEDFDE89B4E /* MDCTextControlStyleFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F42F2B06899DF9A05A9D98E3477ABA2 /* MDCTextControlStyleFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86B06F81F823A227C64E8D5F3C46C9A7 /* MDCFilledTextArea+MaterialTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = FD51BF5FE9B95F8B910163845FF14241 /* MDCFilledTextArea+MaterialTheming.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -641,9 +641,9 @@
 		AAD026BD32A6EA383270635C9330C508 /* MaterialIcons+ic_more_horiz.m in Sources */ = {isa = PBXBuildFile; fileRef = E8171B3A543225E32CAF8AE76819A45B /* MaterialIcons+ic_more_horiz.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AAE4481165213D00FEBBDECF879CF462 /* MDCBottomAppBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A11D6D18A9FD7061F69E52E358CF836 /* MDCBottomAppBarLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AB3F09711A59B77D7C8091615CF77A21 /* MaterialIcons+ic_arrow_back.m in Sources */ = {isa = PBXBuildFile; fileRef = 2394F6F38588D2B72DF7F862B15CADF0 /* MaterialIcons+ic_arrow_back.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialComponents-MaterialIcons_ic_arrow_back in Resources */ = {isa = PBXBuildFile; fileRef = 926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */; };
+		AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialIcons_ic_arrow_back.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */; };
 		AB41B53C3D1ECCE975F3D879DBAFDDB1 /* MaterialBottomNavigation+Theming.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEBE7F547B40ECE04125CADBB72B426 /* MaterialBottomNavigation+Theming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB614AEA12D554C6E7F466414ED04BB5 /* MaterialComponents-MaterialIcons_ic_info in Resources */ = {isa = PBXBuildFile; fileRef = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */; };
+		AB614AEA12D554C6E7F466414ED04BB5 /* MaterialIcons_ic_info.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */; };
 		AB9120871BB73035DDD2CB5E8A7A9FC9 /* MDCPageControlTrackLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7441AF52A4F588F3458B4673778705 /* MDCPageControlTrackLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		ABD61B2926BA62F8344FDE86E111C542 /* MaterialSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = A6CC1EB342CCFBFCA6CB813164724024 /* MaterialSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABD884EBBD4BB4CC3FE1AE9C970546E8 /* MaterialTextControls+FilledTextAreas.h in Headers */ = {isa = PBXBuildFile; fileRef = B555CB227BCAD85A809D2C6B4807A09D /* MaterialTextControls+FilledTextAreas.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -736,7 +736,7 @@
 		C4C2AC30C32BBD1FE40D3F3891D97E0A /* MDCDialogTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 802D0235B7F894E5BA573818E1A95C67 /* MDCDialogTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4C728E35C3FA34DE399DE59BDF637C0 /* MDCCollectionViewStyler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACDA93200B1B97CF7C50659915DBD93 /* MDCCollectionViewStyler.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C4CE52346FD847DF0FB6C7D5C63027E0 /* MDCFilledTextArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAD2D42E58622ECB8B10D1D02961F3A /* MDCFilledTextArea.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C5762156301F61EA168BD049D424D81D /* MaterialComponents-MaterialIcons_ic_help_outline in Resources */ = {isa = PBXBuildFile; fileRef = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */; };
+		C5762156301F61EA168BD049D424D81D /* MaterialIcons_ic_help_outline.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */; };
 		C58654E23C8BEAFF11A2EBE544B9A1E0 /* MaterialTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 851E5B0D86AB775FEAA850CB7BF81ED8 /* MaterialTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5DB9AC0C67FA4E312AAE0F4656F0B59 /* MDCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B54DF77169437DFC77C94843B9A75FDD /* MDCTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		C6428C5C58838C5BCF1FF3DADDA3EFC7 /* MDCFilledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3160F4E819C9DCBB7073E139E8908F8B /* MDCFilledTextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -757,7 +757,7 @@
 		CA51B0661B5110BC6537D5A9BB4385E8 /* MDCSliderColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A13F14A859A53808E6175C52CCBDBD /* MDCSliderColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA5BA1D2A34C6FB6FCBD6E892467D3A6 /* MDCTabBarItemCustomViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E61BEF25E861BBF1C79B09CD2FFFDA3 /* MDCTabBarItemCustomViewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA5D020019D2625A070785F1E428849D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC369FB350F40664AE41AA736D74CF46 /* QuartzCore.framework */; };
-		CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialComponents-MaterialIcons_ic_reorder in Resources */ = {isa = PBXBuildFile; fileRef = CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */; };
+		CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialIcons_ic_reorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */; };
 		CA8C33F263A4AB8CA1C61D99E9A2EE60 /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = 078DAD4589C5FBBF0C67E8620844466B /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA946AFE4D369CBA51A8664C94D1A7E6 /* MDCPalettes.h in Headers */ = {isa = PBXBuildFile; fileRef = B0BFA9283BEBA72D938A7C79F1781E74 /* MDCPalettes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA9C106E6FCA4454A588BF2B950CD8C8 /* MDCPaletteNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2BDA70B56898D202B614F358A608E2 /* MDCPaletteNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -916,15 +916,15 @@
 		F5E986326067E23AD050796F7F4F19CB /* MaterialMathDummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A5A9CADD479AE4C62C15C2C5DAA3D /* MaterialMathDummy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F6F1E8BA1C272F2466C0DC291F718080 /* MDCCurvedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = 00583EBAD3D5655BA3429691D5107693 /* MDCCurvedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F741B93D0288EF92177119C5CC0D64DC /* MDCFilledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 16DC212AE48F924F9B4B68C68B9260B8 /* MDCFilledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialComponents-MaterialIcons_ic_more_horiz in Resources */ = {isa = PBXBuildFile; fileRef = 7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */; };
+		F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialIcons_ic_more_horiz.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */; };
 		F812E2A89C1F25BE60F3E0A03B7FF265 /* MDCSnackbarManagerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FE08B03E0AC7BBB6759B9AD0D9C8F40 /* MDCSnackbarManagerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F88FA4B8D400DCF6CEE7F5DB52956D64 /* MDCFilledTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 7956B9C4FC30050A1572A37E37C71678 /* MDCFilledTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8D2F8DEB1E0C98A16D194BB284E5699 /* MDCInkTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EF17E764DE3163CE01C16F9D025F80 /* MDCInkTouchController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = ECDDE54448EA00587469A38740712A69 /* UIImage+MaterialRTL.h */; };
 		F95D044FFA3301884433EEA032C43ACB /* MDCTextButtonColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A3F77B6B315A4E33239B972E11E9D44 /* MDCTextButtonColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A42116E85EF34ABD5AA26785F3BF62 /* MDCTextInputAllCharactersCounter.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BCDF3E2773D82D17EC77136DC8C814 /* MDCTextInputAllCharactersCounter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F9A949AF191D25341E42533BAF4894FC /* MaterialComponents-MaterialIcons_ic_color_lens in Resources */ = {isa = PBXBuildFile; fileRef = 364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */; };
-		F9E5E4A98EA9615AF8DC707E42892600 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked in Resources */ = {isa = PBXBuildFile; fileRef = E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */; };
+		F9A949AF191D25341E42533BAF4894FC /* MaterialIcons_ic_color_lens.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */; };
+		F9E5E4A98EA9615AF8DC707E42892600 /* MaterialIcons_ic_radio_button_unchecked.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */; };
 		FA009B2A017C058800290730CD7C35EF /* MDCFeatureHighlightLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB37C08D682A1C2F88BE729B2935E470 /* MDCFeatureHighlightLayer.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FA69186AE11900512397A929E0459171 /* MDCButtonBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 470F0F36850AD882CAA2027446455CD6 /* MDCButtonBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FABA1F1467CBA0D5D10E345D75E95C2B /* MDCTextControlHorizontalPositioningReference.m in Sources */ = {isa = PBXBuildFile; fileRef = C934490881183782F5E62A5785A989AE /* MDCTextControlHorizontalPositioningReference.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
@@ -1340,7 +1340,7 @@
 		35E26970F3502B0A99786DA7868580FB /* MDCButtonColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCButtonColorThemer.m; path = components/Buttons/src/ColorThemer/MDCButtonColorThemer.m; sourceTree = "<group>"; };
 		35F16EB800117D85B677796B6A4B2F11 /* MaterialTextControls+UnderlinedTextFieldsTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControls+UnderlinedTextFieldsTheming.h"; path = "components/TextControls/src/UnderlinedTextFieldsTheming/MaterialTextControls+UnderlinedTextFieldsTheming.h"; sourceTree = "<group>"; };
 		362ED15DF4816F298A1ACE7B4D380224 /* MDMCoreAnimationTraceable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMCoreAnimationTraceable.h; path = src/MDMCoreAnimationTraceable.h; sourceTree = "<group>"; };
-		364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_color_lens"; path = MaterialIcons_ic_color_lens.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_color_lens.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E5E3E17B589104525C12A8441E20C2 /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
 		37AB37736FAEE874331D4D7A8714B9EC /* MaterialTextControlsPrivate+UnderlinedStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTextControlsPrivate+UnderlinedStyle.h"; path = "components/private/TextControlsPrivate/src/UnderlinedStyle/MaterialTextControlsPrivate+UnderlinedStyle.h"; sourceTree = "<group>"; };
 		3806633ABE0BC13275273505A9926175 /* Pods-AddAndDeleteListItems-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AddAndDeleteListItems-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -1359,7 +1359,7 @@
 		3C03972DD7F653140337995A50572F44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3C2FC8F63B99994A9E19A5CA2C344E3E /* MaterialBanner+Theming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialBanner+Theming.h"; path = "components/Banner/src/Theming/MaterialBanner+Theming.h"; sourceTree = "<group>"; };
 		3CA4EF8EA18F6923D446FBEBB1EF545A /* NSString+MaterialBidi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MaterialBidi.h"; path = "Sources/NSString+MaterialBidi.h"; sourceTree = "<group>"; };
-		3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_check_circle"; path = MaterialIcons_ic_check_circle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_check_circle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CF49F6C3406AD89E869C848E95CD921 /* MDCTextInputControllerLegacyDefault.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextInputControllerLegacyDefault.m; path = components/TextFields/src/MDCTextInputControllerLegacyDefault.m; sourceTree = "<group>"; };
 		3D0082C49FAC9E742C6F2F2364C323F2 /* MDCRoundedCornerTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCRoundedCornerTreatment.h; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.h; sourceTree = "<group>"; };
 		3D2E23BFBA0E2C2808262131D618970A /* Pods-AddAndDeleteListItems.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AddAndDeleteListItems.release.xcconfig"; sourceTree = "<group>"; };
@@ -1378,7 +1378,7 @@
 		412AF6B4C06E04AA679247350B48DB05 /* MaterialIcons_ic_reorder.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MaterialIcons_ic_reorder.xcassets; path = components/private/Icons/icons/ic_reorder/src/MaterialIcons_ic_reorder.xcassets; sourceTree = "<group>"; };
 		413D4DC12907C0902FB8A928BEDC3236 /* MDCThumbTrack+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCThumbTrack+Private.h"; path = "components/private/ThumbTrack/src/private/MDCThumbTrack+Private.h"; sourceTree = "<group>"; };
 		421AB3FB9DEA711356A276D7E223C237 /* MDCContainedButtonThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCContainedButtonThemer.h; path = components/Buttons/src/ButtonThemer/MDCContainedButtonThemer.h; sourceTree = "<group>"; };
-		428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_feedback"; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		429D309E5CB37E4FB85F873C9E70195B /* MDCBottomDrawerViewController+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCBottomDrawerViewController+MaterialTheming.h"; path = "components/NavigationDrawer/src/Theming/MDCBottomDrawerViewController+MaterialTheming.h"; sourceTree = "<group>"; };
 		42F2E5A426BB54AB11703C328DFE201C /* MaterialAppBar.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialAppBar.bundle; path = components/AppBar/src/MaterialAppBar.bundle; sourceTree = "<group>"; };
 		436351E2011E182DF74F8FF8676123B6 /* MDFInternationalization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MDFInternationalization-dummy.m"; sourceTree = "<group>"; };
@@ -1418,7 +1418,7 @@
 		4BCC0F488DE82336E2BD702C31C3526C /* MDCHeaderStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCHeaderStackView.h; path = components/HeaderStackView/src/MDCHeaderStackView.h; sourceTree = "<group>"; };
 		4CA21CE97B0A8C448996EF8480325AC8 /* MDCOutlinedButtonColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCOutlinedButtonColorThemer.h; path = components/Buttons/src/ColorThemer/MDCOutlinedButtonColorThemer.h; sourceTree = "<group>"; };
 		4CB80ACF13B43C8F500F47A53C66DE1D /* MDCTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarItem.m; path = components/Tabs/src/TabBarView/MDCTabBarItem.m; sourceTree = "<group>"; };
-		4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_chevron_right"; path = MaterialIcons_ic_chevron_right.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_chevron_right.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CFA9480EF6497C54BC01E1456A19A66 /* MDCSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSlider.h; path = components/Slider/src/MDCSlider.h; sourceTree = "<group>"; };
 		4D32BD463890C29DAC58553EA45EB32B /* MDCBottomNavigationBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomNavigationBarController.m; path = components/BottomNavigation/src/MDCBottomNavigationBarController.m; sourceTree = "<group>"; };
 		4D3CB4678692213701796E26B349B7E0 /* MaterialTabs+TypographyThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTabs+TypographyThemer.h"; path = "components/Tabs/src/TypographyThemer/MaterialTabs+TypographyThemer.h"; sourceTree = "<group>"; };
@@ -1600,7 +1600,7 @@
 		7D8EF5961A63DFB232131E059A7D42F0 /* MDCPageControlIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPageControlIndicator.m; path = components/PageControl/src/private/MDCPageControlIndicator.m; sourceTree = "<group>"; };
 		7D934DC8F77AFFC66C46A59BE470FA3E /* MDCDiscreteDotView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDiscreteDotView.h; path = components/private/ThumbTrack/src/private/MDCDiscreteDotView.h; sourceTree = "<group>"; };
 		7E4065CEE3E3A2742936B95906EC0B8B /* MDCTextInputControllerOutlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextInputControllerOutlined.m; path = components/TextFields/src/MDCTextInputControllerOutlined.m; sourceTree = "<group>"; };
-		7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_more_horiz"; path = MaterialIcons_ic_more_horiz.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_more_horiz.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E99C42D13311343B891666C6BDCF83E /* UIFont+MaterialTypographyPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+MaterialTypographyPrivate.m"; path = "components/Typography/src/private/UIFont+MaterialTypographyPrivate.m"; sourceTree = "<group>"; };
 		7EAA06C5C1769194616AEA12E51035E4 /* ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist"; sourceTree = "<group>"; };
 		7ED0105CB346BFC1B361AB9177D62171 /* MDCBottomDrawerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomDrawerViewController.m; path = components/NavigationDrawer/src/MDCBottomDrawerViewController.m; sourceTree = "<group>"; };
@@ -1669,7 +1669,7 @@
 		920A42BC2D38628B0BE3E296FF978E77 /* MDCTextControlVerticalPositioningReferenceFilled.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceFilled.m; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlVerticalPositioningReferenceFilled.m; sourceTree = "<group>"; };
 		922EEEF5DBA77EAB8C22AEFBBEF75345 /* MDMMotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMMotionAnimator.h; path = src/MDMMotionAnimator.h; sourceTree = "<group>"; };
 		922F83FF273B5314931DFFC723069180 /* MDCTextInputController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextInputController.h; path = components/TextFields/src/MDCTextInputController.h; sourceTree = "<group>"; };
-		926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_arrow_back"; path = MaterialIcons_ic_arrow_back.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_arrow_back.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		92A7799DDF2F8BAC0434415CE168ECBD /* MDCSheetBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSheetBehavior.h; path = components/BottomSheet/src/private/MDCSheetBehavior.h; sourceTree = "<group>"; };
 		932D2485ECF40472E3A38D44AE2B150C /* MaterialIcons_ic_chevron_right.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MaterialIcons_ic_chevron_right.xcassets; path = components/private/Icons/icons/ic_chevron_right/src/MaterialIcons_ic_chevron_right.xcassets; sourceTree = "<group>"; };
 		9360EA599AC30E29B987291E177575E8 /* MDCFlexibleHeaderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFlexibleHeaderViewController.m; path = components/FlexibleHeader/src/MDCFlexibleHeaderViewController.m; sourceTree = "<group>"; };
@@ -1691,7 +1691,7 @@
 		95D2D9B8032599EF358EC4218C52C01D /* MaterialUIMetrics.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialUIMetrics.h; path = components/private/UIMetrics/src/MaterialUIMetrics.h; sourceTree = "<group>"; };
 		96054A3160758E8DABF563B859B1EBFF /* MDCBottomNavigationBarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomNavigationBarDelegate.h; path = components/BottomNavigation/src/MDCBottomNavigationBarDelegate.h; sourceTree = "<group>"; };
 		96359FDC06D25D36FFE7DA8A56B85CE2 /* MDCBottomSheetTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetTransitionController.h; path = components/BottomSheet/src/MDCBottomSheetTransitionController.h; sourceTree = "<group>"; };
-		96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_help_outline"; path = MaterialIcons_ic_help_outline.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_help_outline.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		9699A30BA46F81066287CBA81C2C81BF /* MDCTextControlGradientManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlGradientManager.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlGradientManager.h; sourceTree = "<group>"; };
 		96F8EA430D1B0EFC4ABD21502B6DB65B /* MDCCollectionInfoBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCollectionInfoBarView.m; path = components/Collections/src/private/MDCCollectionInfoBarView.m; sourceTree = "<group>"; };
 		97019DD63ADB05475D1B925C7D5F167F /* MDCTextInputControllerFilled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextInputControllerFilled.h; path = components/TextFields/src/MDCTextInputControllerFilled.h; sourceTree = "<group>"; };
@@ -1727,7 +1727,7 @@
 		9D09B8EE877157D2481CEBF98D20629A /* MDCBasicFontScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBasicFontScheme.m; path = components/schemes/Typography/src/BasicFontScheme/MDCBasicFontScheme.m; sourceTree = "<group>"; };
 		9D66DFA45FE3EE25D9A39E499C69387A /* MDCButtonScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCButtonScheme.h; path = components/Buttons/src/ButtonThemer/MDCButtonScheme.h; sourceTree = "<group>"; };
 		9D676B2B8188E7936A42B493679392A5 /* MaterialElevation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialElevation.h; path = components/Elevation/src/MaterialElevation.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DD282B8148E1226336BE29D0D433902 /* MDCChipCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCChipCollectionViewCell.h; path = components/Chips/src/MDCChipCollectionViewCell.h; sourceTree = "<group>"; };
 		9DE0E6869C29ED39C46A993A1EEE69BD /* MDMBlockAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDMBlockAnimations.h; path = src/private/MDMBlockAnimations.h; sourceTree = "<group>"; };
 		9E2C07165E4515B349F2D063B071F202 /* MDCContainedButtonColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCContainedButtonColorThemer.m; path = components/Buttons/src/ColorThemer/MDCContainedButtonColorThemer.m; sourceTree = "<group>"; };
@@ -1792,7 +1792,7 @@
 		AE6D5AEB084A74E58E013F07D04D00B2 /* MaterialFlexibleHeader+ShiftBehavior.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialFlexibleHeader+ShiftBehavior.h"; path = "components/FlexibleHeader/src/ShiftBehavior/MaterialFlexibleHeader+ShiftBehavior.h"; sourceTree = "<group>"; };
 		AE80E48C3608B2A46A564CE21E93A677 /* MDCTextControlSideViewSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlSideViewSupport.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlSideViewSupport.m; sourceTree = "<group>"; };
 		AF63926F4E36055D0709F8D6D1C94164 /* MDCPathGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPathGenerator.m; path = components/Shapes/src/MDCPathGenerator.m; sourceTree = "<group>"; };
-		AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_settings"; path = MaterialIcons_ic_settings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_settings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAEEC61AB8D4586773C965B3C9068B2 /* MDCTextControlVerticalPositioningReferenceUnderlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceUnderlined.m; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlVerticalPositioningReferenceUnderlined.m; sourceTree = "<group>"; };
 		B025FBD34DAC1CB0CBAC7BFEA9A46132 /* MaterialPageControl.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialPageControl.bundle; path = components/PageControl/src/MaterialPageControl.bundle; sourceTree = "<group>"; };
 		B04BA397DDB6CA1E0985C4AFDFD2F5DE /* MDCOutlinedTextArea+MaterialTheming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCOutlinedTextArea+MaterialTheming.m"; path = "components/TextControls/src/OutlinedTextAreasTheming/MDCOutlinedTextArea+MaterialTheming.m"; sourceTree = "<group>"; };
@@ -1915,7 +1915,7 @@
 		CC21634102F123FB562EFF0E50718519 /* MaterialIcons+ic_help_outline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialIcons+ic_help_outline.h"; path = "components/private/Icons/icons/ic_help_outline/src/MaterialIcons+ic_help_outline.h"; sourceTree = "<group>"; };
 		CC646174BAA0289565F45B654B1881D1 /* MDCChipView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCChipView.h; path = components/Chips/src/MDCChipView.h; sourceTree = "<group>"; };
 		CD35B50A4DB1B7A5D081C057BB7F1504 /* MDCProgressGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCProgressGradientView.m; path = components/ProgressView/src/private/MDCProgressGradientView.m; sourceTree = "<group>"; };
-		CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_reorder"; path = MaterialIcons_ic_reorder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_reorder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF890E3723F83AA50394EE7D1EBE84 /* MaterialComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MaterialComponents.modulemap; sourceTree = "<group>"; };
 		CED9BFEFE8CF0E0AB989BAB90677FAEC /* MaterialIcons+ic_chevron_right.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MaterialIcons+ic_chevron_right.m"; path = "components/private/Icons/icons/ic_chevron_right/src/MaterialIcons+ic_chevron_right.m"; sourceTree = "<group>"; };
 		CF0ED4CC25D654D970F3C0DB364C9085 /* MaterialIcons_ic_info.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MaterialIcons_ic_info.xcassets; path = components/private/Icons/icons/ic_info/src/MaterialIcons_ic_info.xcassets; sourceTree = "<group>"; };
@@ -1924,7 +1924,7 @@
 		CF671CA630D844F056E0AC56E37354F8 /* MDCTabBarSizeClassDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarSizeClassDelegate.h; path = components/Tabs/src/SizeClassDelegate/MDCTabBarSizeClassDelegate.h; sourceTree = "<group>"; };
 		CFBAFADBF5E6D74C615CD0CD81258A3A /* MDCTabBarViewItemView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarViewItemView.m; path = components/Tabs/src/TabBarView/private/MDCTabBarViewItemView.m; sourceTree = "<group>"; };
 		CFD6510E858B4E6DBA8516E0C41DA97F /* MDCCardCollectionCell+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCCardCollectionCell+MaterialTheming.h"; path = "components/Cards/src/Theming/MDCCardCollectionCell+MaterialTheming.h"; sourceTree = "<group>"; };
-		CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_check"; path = MaterialIcons_ic_check.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_check.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D00BD1EBB7C877837BDCC9E1A3425B1D /* MDCButtonBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCButtonBar.m; path = components/ButtonBar/src/MDCButtonBar.m; sourceTree = "<group>"; };
 		D00CB3EBCE0AACDE4398FEF9C6463C95 /* MaterialComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MaterialComponents-dummy.m"; sourceTree = "<group>"; };
 		D0BE3E8048F96451DF4CBF5BA16692B4 /* CATransaction+MotionAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CATransaction+MotionAnimator.m"; path = "src/CATransaction+MotionAnimator.m"; sourceTree = "<group>"; };
@@ -2001,7 +2001,7 @@
 		E5B99BF05CE5D0360846958D0AA7C24A /* MDCFeatureHighlightColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFeatureHighlightColorThemer.h; path = components/FeatureHighlight/src/ColorThemer/MDCFeatureHighlightColorThemer.h; sourceTree = "<group>"; };
 		E5CF84D7BCD44F9A786CC37B42E10B77 /* MDCLibraryInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCLibraryInfo.m; path = components/LibraryInfo/src/MDCLibraryInfo.m; sourceTree = "<group>"; };
 		E62BB107382E05F38B8D7EEB4EA68A74 /* MDCAppBarViewControllerAccessibilityPerformEscapeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAppBarViewControllerAccessibilityPerformEscapeDelegate.h; path = components/AppBar/src/MDCAppBarViewControllerAccessibilityPerformEscapeDelegate.h; sourceTree = "<group>"; };
-		E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_radio_button_unchecked"; path = MaterialIcons_ic_radio_button_unchecked.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_radio_button_unchecked.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EEE6A4CA96F92BE5A72362DB14AF7C /* MDCAppBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCAppBarViewController.m; path = components/AppBar/src/MDCAppBarViewController.m; sourceTree = "<group>"; };
 		E72546B6B3E29D4D10F4DA1CAEA05640 /* MDCButtonBarButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCButtonBarButton.m; path = components/ButtonBar/src/private/MDCButtonBarButton.m; sourceTree = "<group>"; };
 		E7D17E272285186F5A9CD7E4D2A49758 /* MDCShapeScheme.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapeScheme.m; path = components/schemes/Shape/src/MDCShapeScheme.m; sourceTree = "<group>"; };
@@ -2049,7 +2049,7 @@
 		F0844B6565429879564CF39F6A23FD94 /* MaterialShadowLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialShadowLayer.h; path = components/ShadowLayer/src/MaterialShadowLayer.h; sourceTree = "<group>"; };
 		F118D2C5951647E5472060F879581440 /* MaterialFlexibleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialFlexibleHeader.h; path = components/FlexibleHeader/src/MaterialFlexibleHeader.h; sourceTree = "<group>"; };
 		F11FF0B8DE46A4046CC3625D76468632 /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
-		F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_info"; path = MaterialIcons_ic_info.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_info.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17A447E6B8695A134F8101B025FD537 /* MaterialSnackbarStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialSnackbarStrings.h; path = components/Snackbar/src/private/MaterialSnackbarStrings.h; sourceTree = "<group>"; };
 		F1FB53577A907379BEA001B6FB4809A2 /* MDCShadowElevations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShadowElevations.h; path = components/ShadowElevations/src/MDCShadowElevations.h; sourceTree = "<group>"; };
 		F24A6567CD627E62F6E1F492C73C0919 /* MDCStatefulRippleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCStatefulRippleView.h; path = components/Ripple/src/MDCStatefulRippleView.h; sourceTree = "<group>"; };
@@ -2436,18 +2436,18 @@
 			isa = PBXGroup;
 			children = (
 				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */,
-				926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */,
-				CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */,
-				3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */,
-				4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */,
-				364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */,
-				428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */,
-				96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */,
-				F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */,
-				7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */,
-				E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */,
-				CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */,
-				AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */,
+				926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */,
+				CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */,
+				3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */,
+				4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */,
+				364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */,
+				428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */,
+				96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */,
+				F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */,
+				7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */,
+				E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */,
+				CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */,
+				AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */,
 				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */,
 				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility */,
 				A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator */,
@@ -2607,7 +2607,6 @@
 				C11B1B85BB5034713E86688382153A50 /* UIView+MaterialRTL.m */,
 				C2242437F2587E6E0C866B0ECB823BDD /* Support Files */,
 			);
-			name = MDFInternationalization;
 			path = MDFInternationalization;
 			sourceTree = "<group>";
 		};
@@ -2853,7 +2852,6 @@
 				944533C68B0DED3278435CF616679A71 /* MotionInterchange.h */,
 				F8075F73FCFCD9B35C8E2109FE4129D8 /* Support Files */,
 			);
-			name = MotionInterchange;
 			path = MotionInterchange;
 			sourceTree = "<group>";
 		};
@@ -3085,7 +3083,6 @@
 				C06501E00F00250F2F3FEF02B74C9A53 /* MotionAnimator.h */,
 				F6C58EC14ACF34C780B998F25E5E797D /* Support Files */,
 			);
-			name = MotionAnimator;
 			path = MotionAnimator;
 			sourceTree = "<group>";
 		};
@@ -4071,7 +4068,6 @@
 				ACE4BE1AD8A286902AB456F4C45ACE76 /* Themes */,
 				01E15FBA1F14445200F9643A6DFAEF2D /* Typography */,
 			);
-			name = MaterialComponents;
 			path = MaterialComponents;
 			sourceTree = "<group>";
 		};
@@ -4381,7 +4377,6 @@
 				DBC7B50EF6702C3ACA908C0061134532 /* NSArray+MDFUtils.m */,
 				9CC374701BDBC9AE76DC2002CA3DC9E8 /* Support Files */,
 			);
-			name = MDFTextAccessibility;
 			path = MDFTextAccessibility;
 			sourceTree = "<group>";
 		};
@@ -5162,7 +5157,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_info";
 			productName = MaterialIcons_ic_info;
-			productReference = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */;
+			productReference = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		1F9F204A1CBA340DC643B7D0D3FE6252 /* MaterialComponents-MaterialIcons_ic_feedback */ = {
@@ -5179,7 +5174,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_feedback";
 			productName = MaterialIcons_ic_feedback;
-			productReference = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */;
+			productReference = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		3CC3368A46441D43BCE095C25BC2D7AE /* MaterialComponents-MaterialIcons_ic_chevron_right */ = {
@@ -5196,7 +5191,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_chevron_right";
 			productName = MaterialIcons_ic_chevron_right;
-			productReference = 4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */;
+			productReference = 4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		468F85163B361F85512454772CED274B /* MaterialComponents-MaterialIcons_ic_color_lens */ = {
@@ -5213,7 +5208,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_color_lens";
 			productName = MaterialIcons_ic_color_lens;
-			productReference = 364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */;
+			productReference = 364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		55A01F8E987A6E2F7F0ED141A1ECA406 /* MDFInternationalization */ = {
@@ -5250,7 +5245,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_more_horiz";
 			productName = MaterialIcons_ic_more_horiz;
-			productReference = 7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */;
+			productReference = 7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		7F4022CD4249985E761F745058CAB372 /* MaterialComponents-MaterialIcons_ic_check_circle */ = {
@@ -5267,7 +5262,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_check_circle";
 			productName = MaterialIcons_ic_check_circle;
-			productReference = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */;
+			productReference = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		8CCBEEB662051012E397252AFA0B7A43 /* Pods-AddAndDeleteListItems */ = {
@@ -5325,7 +5320,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_settings";
 			productName = MaterialIcons_ic_settings;
-			productReference = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */;
+			productReference = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */ = {
@@ -5412,7 +5407,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_check";
 			productName = MaterialIcons_ic_check;
-			productReference = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */;
+			productReference = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DAAC6B090344D82AFBB9137B7CCE6D95 /* MaterialComponents-MaterialIcons_ic_help_outline */ = {
@@ -5429,7 +5424,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_help_outline";
 			productName = MaterialIcons_ic_help_outline;
-			productReference = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */;
+			productReference = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DF90696196F65237863CD68D1E0BF679 /* MaterialComponents-MaterialIcons_ic_arrow_back */ = {
@@ -5446,7 +5441,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_arrow_back";
 			productName = MaterialIcons_ic_arrow_back;
-			productReference = 926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */;
+			productReference = 926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E3B53EBD35B2477D60160EAE2ECBA3E0 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */ = {
@@ -5463,7 +5458,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_radio_button_unchecked";
 			productName = MaterialIcons_ic_radio_button_unchecked;
-			productReference = E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */;
+			productReference = E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E562A73E10FFCE763B23186140ADF40B /* MaterialComponents-MaterialIcons_ic_reorder */ = {
@@ -5480,7 +5475,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_reorder";
 			productName = MaterialIcons_ic_reorder;
-			productReference = CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */;
+			productReference = CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -5536,18 +5531,18 @@
 				EC559638DD041AC1CE0676558F87EA5B /* MaterialAppBar.bundle in Resources */,
 				9ED4BE89F20541F87C8EA2FB845CAB7E /* MaterialCollectionCells.bundle in Resources */,
 				0B4AE4B3E70F7BEE2AD81CDE57773DF8 /* MaterialCollections.bundle in Resources */,
-				AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialComponents-MaterialIcons_ic_arrow_back in Resources */,
-				4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialComponents-MaterialIcons_ic_check in Resources */,
-				429F96D649B4321981F0DC90FD9CF1F9 /* MaterialComponents-MaterialIcons_ic_check_circle in Resources */,
-				860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialComponents-MaterialIcons_ic_chevron_right in Resources */,
-				F9A949AF191D25341E42533BAF4894FC /* MaterialComponents-MaterialIcons_ic_color_lens in Resources */,
-				6543102BA5BF54A780651C8168932795 /* MaterialComponents-MaterialIcons_ic_feedback in Resources */,
-				C5762156301F61EA168BD049D424D81D /* MaterialComponents-MaterialIcons_ic_help_outline in Resources */,
-				AB614AEA12D554C6E7F466414ED04BB5 /* MaterialComponents-MaterialIcons_ic_info in Resources */,
-				F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialComponents-MaterialIcons_ic_more_horiz in Resources */,
-				F9E5E4A98EA9615AF8DC707E42892600 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked in Resources */,
-				CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialComponents-MaterialIcons_ic_reorder in Resources */,
-				83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialComponents-MaterialIcons_ic_settings in Resources */,
+				AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialIcons_ic_arrow_back.bundle in Resources */,
+				4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialIcons_ic_check.bundle in Resources */,
+				429F96D649B4321981F0DC90FD9CF1F9 /* MaterialIcons_ic_check_circle.bundle in Resources */,
+				860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialIcons_ic_chevron_right.bundle in Resources */,
+				F9A949AF191D25341E42533BAF4894FC /* MaterialIcons_ic_color_lens.bundle in Resources */,
+				6543102BA5BF54A780651C8168932795 /* MaterialIcons_ic_feedback.bundle in Resources */,
+				C5762156301F61EA168BD049D424D81D /* MaterialIcons_ic_help_outline.bundle in Resources */,
+				AB614AEA12D554C6E7F466414ED04BB5 /* MaterialIcons_ic_info.bundle in Resources */,
+				F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialIcons_ic_more_horiz.bundle in Resources */,
+				F9E5E4A98EA9615AF8DC707E42892600 /* MaterialIcons_ic_radio_button_unchecked.bundle in Resources */,
+				CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialIcons_ic_reorder.bundle in Resources */,
+				83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialIcons_ic_settings.bundle in Resources */,
 				C0259A95C30FBA70C1505A25B0DFEE13 /* MaterialDialogs.bundle in Resources */,
 				35D31E5700DF9BCFDFBB2511EC0C338A /* MaterialPageControl.bundle in Resources */,
 				58009D5E444E1C181467CEC89E6C39A8 /* MaterialProgressView.bundle in Resources */,
@@ -6361,6 +6356,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6439,6 +6435,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6490,6 +6487,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6506,6 +6504,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6630,6 +6629,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6646,6 +6646,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6696,6 +6697,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6712,6 +6714,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6728,6 +6731,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6744,6 +6748,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6760,6 +6765,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6776,6 +6782,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6792,6 +6799,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6808,6 +6816,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6824,6 +6833,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6840,6 +6850,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6891,6 +6902,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6907,6 +6919,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6923,6 +6936,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6976,6 +6990,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -6992,6 +7007,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -7008,6 +7024,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -7024,6 +7041,7 @@
 			baseConfigurationReference = 0278639EEAE1A3976A2B462E19A5E9F4 /* MaterialComponents.debug.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -7111,6 +7129,7 @@
 			baseConfigurationReference = C6A679E51F9BBFDC75E9E4B33A900B6E /* MaterialComponents.release.xcconfig */;
 			buildSettings = {
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;

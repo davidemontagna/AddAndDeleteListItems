@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		02641F223D05520D1057582F /* Pods_AddAndDeleteListItems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */; };
+		8EB0501B28EEBECF0096593D /* ListViewModelDelegateUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501A28EEBECF0096593D /* ListViewModelDelegateUseCases.swift */; };
+		8EB0501D28EEEB600096593D /* FadePushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501C28EEEB600096593D /* FadePushAnimator.swift */; };
+		8EB0501F28EEEBB70096593D /* FadePopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501E28EEEBB70096593D /* FadePopAnimator.swift */; };
 		8EB1E70528ED6E4600B36781 /* ListDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E70428ED6E4600B36781 /* ListDetailViewController.swift */; };
 		8EB1E70828ED6E6400B36781 /* ListDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E70728ED6E6400B36781 /* ListDetailViewModel.swift */; };
 		8EB1E71928ED964800B36781 /* ListAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB1E71828ED964800B36781 /* ListAnimation.swift */; };
@@ -47,6 +50,9 @@
 
 /* Begin PBXFileReference section */
 		87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddAndDeleteListItems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB0501A28EEBECF0096593D /* ListViewModelDelegateUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelDelegateUseCases.swift; sourceTree = "<group>"; };
+		8EB0501C28EEEB600096593D /* FadePushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePushAnimator.swift; sourceTree = "<group>"; };
+		8EB0501E28EEEBB70096593D /* FadePopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePopAnimator.swift; sourceTree = "<group>"; };
 		8EB1E70428ED6E4600B36781 /* ListDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewController.swift; sourceTree = "<group>"; };
 		8EB1E70728ED6E6400B36781 /* ListDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDetailViewModel.swift; sourceTree = "<group>"; };
 		8EB1E71828ED964800B36781 /* ListAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAnimation.swift; sourceTree = "<group>"; };
@@ -107,6 +113,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8EB0501928EEBE960096593D /* UseCases */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0501A28EEBECF0096593D /* ListViewModelDelegateUseCases.swift */,
+			);
+			path = UseCases;
+			sourceTree = "<group>";
+		};
 		8EB1E70128ED6DEA00B36781 /* List */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +128,7 @@
 				8EC708AF28EC83DD001DB542 /* ViewModel */,
 				8EC708B228EC8405001DB542 /* Adapter */,
 				8EC708B928EC866C001DB542 /* View */,
+				8EB0501928EEBE960096593D /* UseCases */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -147,6 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				8EB1E71A28EDBD8400B36781 /* Transition.swift */,
+				8EB0501C28EEEB600096593D /* FadePushAnimator.swift */,
+				8EB0501E28EEEBB70096593D /* FadePopAnimator.swift */,
 			);
 			path = CustomTransition;
 			sourceTree = "<group>";
@@ -162,6 +179,7 @@
 		8EB1E71C28EDDC0200B36781 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				8EC7088428EC835F001DB542 /* Main.storyboard */,
 				8EB1E70228ED6DFD00B36781 /* Detail */,
 				8EB1E70128ED6DEA00B36781 /* List */,
 			);
@@ -215,7 +233,6 @@
 				8EB1E71E28EDEAB800B36781 /* UI */,
 				8EC7087E28EC835F001DB542 /* AppDelegate.swift */,
 				8EC7088028EC835F001DB542 /* SceneDelegate.swift */,
-				8EC7088428EC835F001DB542 /* Main.storyboard */,
 				8EC7088728EC8360001DB542 /* Assets.xcassets */,
 				8EC7088928EC8360001DB542 /* LaunchScreen.storyboard */,
 				8EC7088C28EC8360001DB542 /* Info.plist */,
@@ -475,14 +492,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB1E71928ED964800B36781 /* ListAnimation.swift in Sources */,
+				8EB0501B28EEBECF0096593D /* ListViewModelDelegateUseCases.swift in Sources */,
 				8EC708B428EC8416001DB542 /* ListAdapter.swift in Sources */,
 				8EC7088328EC835F001DB542 /* ListViewController.swift in Sources */,
+				8EB0501F28EEEBB70096593D /* FadePopAnimator.swift in Sources */,
 				8EC7087F28EC835F001DB542 /* AppDelegate.swift in Sources */,
 				8EC708BD28EC869E001DB542 /* ListCell.swift in Sources */,
 				8EB1E71B28EDBD8400B36781 /* Transition.swift in Sources */,
 				8EC708B128EC83F1001DB542 /* ListViewModel.swift in Sources */,
 				8EC7088128EC835F001DB542 /* SceneDelegate.swift in Sources */,
 				8EC708B728EC8446001DB542 /* UITableView + Extensions.swift in Sources */,
+				8EB0501D28EEEB600096593D /* FadePushAnimator.swift in Sources */,
 				8EB1E70528ED6E4600B36781 /* ListDetailViewController.swift in Sources */,
 				8EB1E70828ED6E6400B36781 /* ListDetailViewModel.swift in Sources */,
 			);
@@ -662,6 +682,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AddAndDeleteListItems/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -669,6 +690,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -690,6 +712,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 26CF3G7A9A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AddAndDeleteListItems/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -697,6 +720,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
