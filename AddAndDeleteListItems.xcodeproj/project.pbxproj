@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		02641F223D05520D1057582F /* Pods_AddAndDeleteListItems.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */; };
+		8EA82ACD28F037E500512D18 /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA82ACC28F037E500512D18 /* EmptyView.swift */; };
+		8EA82ACF28F0380400512D18 /* EmptyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EA82ACE28F0380400512D18 /* EmptyView.xib */; };
+		8EA82AD128F0421900512D18 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA82AD028F0421900512D18 /* UIVIew+Extensions.swift */; };
 		8EB0501B28EEBECF0096593D /* ListViewModelDelegateUseCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501A28EEBECF0096593D /* ListViewModelDelegateUseCases.swift */; };
 		8EB0501D28EEEB600096593D /* FadePushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501C28EEEB600096593D /* FadePushAnimator.swift */; };
 		8EB0501F28EEEBB70096593D /* FadePopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB0501E28EEEBB70096593D /* FadePopAnimator.swift */; };
@@ -50,6 +53,9 @@
 
 /* Begin PBXFileReference section */
 		87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AddAndDeleteListItems.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA82ACC28F037E500512D18 /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		8EA82ACE28F0380400512D18 /* EmptyView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EmptyView.xib; sourceTree = "<group>"; };
+		8EA82AD028F0421900512D18 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
 		8EB0501A28EEBECF0096593D /* ListViewModelDelegateUseCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelDelegateUseCases.swift; sourceTree = "<group>"; };
 		8EB0501C28EEEB600096593D /* FadePushAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePushAnimator.swift; sourceTree = "<group>"; };
 		8EB0501E28EEEBB70096593D /* FadePopAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadePopAnimator.swift; sourceTree = "<group>"; };
@@ -111,6 +117,15 @@
 				87782ECD7EF380D6AF5E0C8B /* Pods_AddAndDeleteListItems.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EA82ACB28F037B000512D18 /* EmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				8EA82ACC28F037E500512D18 /* EmptyView.swift */,
+				8EA82ACE28F0380400512D18 /* EmptyView.xib */,
+			);
+			path = EmptyView;
 			sourceTree = "<group>";
 		};
 		8EB0501928EEBE960096593D /* UseCases */ = {
@@ -189,6 +204,7 @@
 		8EB1E71D28EDEA8700B36781 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				8EA82ACB28F037B000512D18 /* EmptyView */,
 				8EB1E71728ED963500B36781 /* ListAnimation */,
 				8EB1E70928ED7EB200B36781 /* CustomTransition */,
 			);
@@ -285,6 +301,7 @@
 			isa = PBXGroup;
 			children = (
 				8EC708B628EC8446001DB542 /* UITableView + Extensions.swift */,
+				8EA82AD028F0421900512D18 /* UIVIew+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -425,6 +442,7 @@
 				8EC708BE28EC869E001DB542 /* ListCell.xib in Resources */,
 				8EC7088828EC8360001DB542 /* Assets.xcassets in Resources */,
 				8EC7088628EC835F001DB542 /* Main.storyboard in Resources */,
+				8EA82ACF28F0380400512D18 /* EmptyView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,10 +510,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EB1E71928ED964800B36781 /* ListAnimation.swift in Sources */,
+				8EA82ACD28F037E500512D18 /* EmptyView.swift in Sources */,
 				8EB0501B28EEBECF0096593D /* ListViewModelDelegateUseCases.swift in Sources */,
 				8EC708B428EC8416001DB542 /* ListAdapter.swift in Sources */,
 				8EC7088328EC835F001DB542 /* ListViewController.swift in Sources */,
 				8EB0501F28EEEBB70096593D /* FadePopAnimator.swift in Sources */,
+				8EA82AD128F0421900512D18 /* UIVIew+Extensions.swift in Sources */,
 				8EC7087F28EC835F001DB542 /* AppDelegate.swift in Sources */,
 				8EC708BD28EC869E001DB542 /* ListCell.swift in Sources */,
 				8EB1E71B28EDBD8400B36781 /* Transition.swift in Sources */,

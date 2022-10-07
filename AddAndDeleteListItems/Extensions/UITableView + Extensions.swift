@@ -1,5 +1,5 @@
 //
-//  UITableView + Extensions.swift
+//  UITableView+Extensions.swift
 //  AddAndDeleteListItems
 //
 //  Created by Davide Montagna on 04/10/22.
